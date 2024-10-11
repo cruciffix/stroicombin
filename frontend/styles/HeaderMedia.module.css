@@ -1,0 +1,323 @@
+@media screen and (min-width: 1801px) {
+	.headerLogo img {
+		width: 140px;
+	}
+
+	.headerWrapperMenu a {
+		font-size: 20px;
+	}
+
+	.headerWrapperIcon img {
+		width: 50px;
+	}
+}
+
+@media screen and (min-width: 993px) and (max-width: 1200px) {
+	.consultBtn {
+		margin: 0;
+	}
+
+	.headerLogo img {
+		width: 100px;
+	}
+
+	.headerWrapperMenu a {
+		font-size: 16px;
+	}
+
+	.headerMenu span {
+		margin: 0 3px;
+	}
+
+	.consultBtn a {
+		font-size: 14px;
+
+		padding: 10px 17px;
+	}
+
+	.headerWrapperIcon {
+		width: 270px;
+
+		padding: 5px 50px 5px 15px;
+
+		border-radius: 0 0 35px 0;
+	}
+
+	.headerWrapperIcon img {
+		width: 35px;
+	}
+}
+
+@media screen and (min-width: 769px) and (max-width: 992px) {
+	.headerCloseOpen svg {
+		width: 40px;
+	}
+
+	.headerOpen {
+		display: block;
+		position: absolute;
+		top: 10px;
+		left: 10px;
+	}
+
+	.header {
+		height: 100vh;
+		width: 550px;
+
+		position: relative;
+	}
+
+	.headerClose {
+		display: block;
+		position: absolute;
+		top: 10px;
+		right: 10px;
+	}
+
+	.margin {
+		margin: 0;
+	}
+
+	.headerContainer {
+		display: flex;
+		align-self: flex-end;
+	}
+
+	.headerLogo img {
+		width: 170px;
+	}
+
+	.headerMenu {
+		display: flex;
+
+		margin: 100px 0 60px 0;
+
+		text-align: center;
+	}
+	.headerMenu,
+	.headerWrapperMenu {
+		flex-direction: column;
+	}
+
+	.headerWrapperMenu a {
+		font-size: 19px;
+	}
+
+	.consultBtn {
+		margin: 0;
+	}
+
+	.headerWrapperIcon {
+		width: 100px;
+		height: 400px;
+
+		position: static;
+
+		display: flex;
+		justify-content: space-around;
+		flex-direction: column;
+
+		padding: 5px;
+
+		text-align: center;
+
+		border-radius: 0 0 40px 0;
+	}
+
+	.headerWrapperIcon img {
+		width: 55px;
+	}
+
+	.abroad {
+		position: absolute;
+		left: -1000px;
+
+		transition: 0.6s all;
+	}
+}
+
+@media screen and (min-width: 577px) and (max-width: 768px) {
+	.headerOpen {
+		display: block;
+		position: absolute;
+		top: 10px;
+		left: 10px;
+	}
+
+	.headerCloseOpen svg {
+		width: 30px;
+	}
+
+	.margin {
+		margin: 0;
+	}
+
+	.headerContainer {
+		display: flex;
+		align-self: flex-end;
+	}
+
+	.header {
+		height: 100vh;
+		width: 450px;
+
+		position: relative;
+	}
+
+	.headerClose {
+		display: block;
+		position: absolute;
+		top: 10px;
+		right: 10px;
+	}
+
+	.headerLogo img {
+		width: 160px;
+	}
+
+	.headerMenu {
+		display: flex;
+
+		margin: 120px 0 100px 0;
+
+		text-align: center;
+	}
+	.headerMenu,
+	.headerWrapperMenu {
+		flex-direction: column;
+	}
+
+	.headerWrapperMenu a {
+		font-size: 21px;
+		margin: 0;
+	}
+
+	.consultBtn {
+		margin: 0;
+	}
+
+	.headerWrapperIcon {
+		width: 80px;
+		height: 350px;
+
+		position: static;
+
+		display: flex;
+		justify-content: space-around;
+		flex-direction: column;
+
+		padding: 5px;
+
+		text-align: center;
+
+		border-radius: 0 0 40px 0;
+	}
+
+	.headerWrapperIcon img {
+		width: 50px;
+	}
+
+	.abroad {
+		position: absolute;
+		left: -1000px;
+
+		transition: 0.6s all;
+	}
+}
+
+@media screen and (min-width: 320px) and (max-width: 576px) {
+	.displayNone {
+		display: none;
+	}
+
+	.headerCloseOpen svg {
+		width: 30px;
+	}
+
+	.margin {
+		margin: 0;
+	}
+
+	.headerContainer {
+		display: flex;
+		align-self: flex-end;
+	}
+
+	.headerOpen {
+		display: block;
+		position: absolute;
+		top: 10px;
+		left: 10px;
+
+		width: 30px;
+	}
+
+	.header {
+		height: 100vh;
+		width: 300px;
+
+		position: relative;
+	}
+
+	.headerClose {
+		display: block;
+		position: absolute;
+		top: 10px;
+		right: 10px;
+
+		width: 30px;
+	}
+
+	.headerLogo img {
+		width: 160px;
+	}
+
+	.headerMenu {
+		display: flex;
+
+		margin: 120px 0 100px 0;
+
+		text-align: center;
+	}
+	.headerMenu,
+	.headerWrapperMenu {
+		flex-direction: column;
+	}
+
+	.headerWrapperMenu a {
+		font-size: 15px;
+		margin: 0;
+	}
+
+	.consultBtn {
+		margin: 0;
+	}
+
+	.headerWrapperIcon {
+		width: 40px;
+		height: 250px;
+
+		position: static;
+
+		display: flex;
+		justify-content: space-around;
+		flex-direction: column;
+
+		padding: 5px;
+
+		text-align: center;
+
+		border-radius: 0 0 40px 0;
+	}
+
+	.headerWrapperIcon img {
+		width: 30px;
+	}
+
+	.abroad {
+		position: absolute;
+		left: -1000px;
+
+		transition: 0.6s all;
+	}
+}

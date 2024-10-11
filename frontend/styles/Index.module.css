@@ -1,0 +1,38 @@
+/* ================ START TITLE ================ */
+
+.wrapperTitle {
+	padding: 150px 0;
+}
+
+.wrapperTitle .wrapperContentTitle {
+	display: flex;
+	justify-content: space-around;
+}
+
+.wrapperTitle .wrapperContentTitle img {
+	width: 400px;
+}
+
+.pTitle p {
+	width: 600px;
+
+	margin: auto;
+	padding: 50px 40px;
+
+	background-color: rgba(255, 255, 255, 0.8);
+
+	font-size: 18px;
+	text-align: center;
+	color: #000;
+
+	border-radius: 20px;
+}
+
+.sectionTitle {
+	background: url(/index/title/bg.png) top center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+}
+
+/* ================ END TITLE ================ */
