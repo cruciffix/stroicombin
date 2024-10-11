@@ -1,15 +1,15 @@
-export const Title = ({ styles, indexMedia }) => {
+export const Title = ({ styles, mediaStyles }) => {
 	return (
 		<section
-			className={`${styles['sectionTitle']} ${indexMedia['sectionTitle']}`}
+			className={`${styles['sectionTitle']} ${mediaStyles['sectionTitle']}`}
 		>
 			<div
-				className={`${styles['wrapperTitle']} ${indexMedia['wrapperTitle']}`}
+				className={`${styles['wrapperTitle']} ${mediaStyles['wrapperTitle']}`}
 			>
 				<div
-					className={`${styles['wrapperContentTitle']} ${indexMedia['wrapperContentTitle']}`}
+					className={`${styles['wrapperContentTitle']} ${mediaStyles['wrapperContentTitle']}`}
 				>
-					<div className={`${styles['pTitle']} ${indexMedia['pTitle']}`}>
+					<div className={`${styles['pTitle']} ${mediaStyles['pTitle']}`}>
 						<p>
 							Группа строительных компаний “Волжский Домостроительный комбинат”
 							на сегодняшний день имеет большой опыт строительства многоэтажных
@@ -19,7 +19,7 @@ export const Title = ({ styles, indexMedia }) => {
 							результате вы получаете качественное жильё за низкую стоимость
 						</p>
 					</div>
-					<div className={`${indexMedia['logoTitle']}`}>
+					<div className={`${mediaStyles['logoTitle']}`}>
 						<img src='/index/title/logo.png' />
 					</div>
 				</div>

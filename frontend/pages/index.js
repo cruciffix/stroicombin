@@ -2,11 +2,13 @@ import localFont from 'next/font/local';
 
 import headerStyles from '@/styles/Header.module.css';
 import headerMedia from '@/styles/HeaderMedia.module.css';
+
 import indexStyles from '@/styles/Index.module.css';
-import indexMedia from '@/styles/IndexMedia.module.css';
+import titleMedia from '@/styles/TitleMedia.module.css';
 
 import { Header } from '@/components/header';
-import { Title } from '@/components/icons/index/title';
+import { Title } from '@/components/index/title';
+import { VDK } from '@/components/index/vdk';
 
 const geistSans = localFont({
 	src: './fonts/GeistVF.woff',
@@ -23,7 +25,9 @@ export default function Home() {
 	return (
 		<>
 			<Header styles={headerStyles} headerMedia={headerMedia} />
-			<Title styles={indexStyles} indexMedia={indexMedia} />
+
+			<Title styles={indexStyles} mediaStyles={titleMedia} />
+			<VDK styles={indexStyles}/>
 		</>
 	);
 }

@@ -40,3 +40,43 @@
 }
 
 /* ================ END TITLE ================ */
+
+
+
+/* ================ START VDK ================ */
+.contentWrapperVDK {
+	background-color: #FAE4FF;
+}
+
+.contentRowVDK {
+	height: 100%;
+
+	display: flex;
+	justify-content: space-between;
+}
+
+.centerBlockVDK {
+	margin: auto 0;
+
+	max-height: 100%;
+	height: 100%;
+
+
+	text-align: center;
+	
+}
+
+
+
+.centerBlockVDK span {
+	color: #000;
+	font-size: 18px;
+}
+
+.peripheryBlockVDK img {
+	width: 570px;
+}
+
+/* ================ END VDK ================ */
+
+
